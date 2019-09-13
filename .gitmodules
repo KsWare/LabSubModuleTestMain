@@ -1,0 +1,3 @@
+[submodule "LabSubModuleTestSharedProject"]
+	path = LabSubModuleTestSharedProject
+	url = https://github.com/KsWare/LabSubModuleTestSharedProject.git
