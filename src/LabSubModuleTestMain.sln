@@ -5,7 +5,13 @@ VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabSubModuleTestMain", "LabSubModuleTestMain\LabSubModuleTestMain.csproj", "{9259E1B5-F64F-4271-BA0C-6624E79012D7}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "LabSubModuleTestSharedProject", "..\LabSubModuleTestSharedProject\src\LabSubModuleTestSharedProject\LabSubModuleTestSharedProject.shproj", "{25D997F1-9B42-4EB8-A55C-CE31266BB17D}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\LabSubModuleTestSharedProject\src\LabSubModuleTestSharedProject\LabSubModuleTestSharedProject.projitems*{25d997f1-9b42-4eb8-a55c-ce31266bb17d}*SharedItemsImports = 13
+		..\LabSubModuleTestSharedProject\src\LabSubModuleTestSharedProject\LabSubModuleTestSharedProject.projitems*{9259e1b5-f64f-4271-ba0c-6624e79012d7}*SharedItemsImports = 4
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
